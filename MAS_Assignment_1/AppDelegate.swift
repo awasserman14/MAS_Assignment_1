@@ -8,6 +8,13 @@
 
 import UIKit
 import CoreData
+import AWSCognitoIdentityProvider
+import AWSCore
+
+
+var pool: AWSCognitoIdentityUserPool?
+
+var credentialsProvider: AWSCognitoCredentialsProvider?
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +24,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+
+        
+        let credentialProvider = AWSCognitoCredentialsProvider(
+            regionType: .USEast1,
+            identityPoolId: "us-east-1:dcc69e88-c76b-4536-b49c-ffdfc3df0e97"
+        )
+        
+        let serviceConfiguration = AWSServiceConfiguration(
+            region: .USEast1,
+            credentialsProvider: credentialProvider
+        )
+        
+        AWSServiceManager.default().defaultServiceConfiguration = serviceConfiguration
+        
         return true
     }
 

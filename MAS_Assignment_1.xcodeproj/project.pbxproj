@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0E24E08D6772A1753540674 /* Pods_MAS_Assignment_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8865322A3A2DDCF660C97EC0 /* Pods_MAS_Assignment_1.framework */; };
 		E5C0E46B2139761D00215ACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0E46A2139761D00215ACD /* AppDelegate.swift */; };
 		E5C0E46D2139761D00215ACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0E46C2139761D00215ACD /* ViewController.swift */; };
 		E5C0E4702139761D00215ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C0E46E2139761D00215ACD /* Main.storyboard */; };
 		E5C0E4732139761D00215ACD /* MAS_Assignment_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5C0E4712139761D00215ACD /* MAS_Assignment_1.xcdatamodeld */; };
 		E5C0E4752139761E00215ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C0E4742139761E00215ACD /* Assets.xcassets */; };
 		E5C0E4782139761E00215ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C0E4762139761E00215ACD /* LaunchScreen.storyboard */; };
+		E5C0E48021397DE600215ACD /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0E47F21397DE600215ACD /* CreateAccountViewController.swift */; };
+		E5C0E48321398E3D00215ACD /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E5C0E48121398D3700215ACD /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F101A74A65B757C52304C34 /* Pods-MAS_Assignment_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAS_Assignment_1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAS_Assignment_1/Pods-MAS_Assignment_1.debug.xcconfig"; sourceTree = "<group>"; };
+		8865322A3A2DDCF660C97EC0 /* Pods_MAS_Assignment_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAS_Assignment_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C0E4672139761D00215ACD /* MAS_Assignment_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAS_Assignment_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C0E46A2139761D00215ACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5C0E46C2139761D00215ACD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		E5C0E4742139761E00215ACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5C0E4772139761E00215ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5C0E4792139761E00215ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C0E47F21397DE600215ACD /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		E5C0E48121398D3700215ACD /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		FAC6389BCEEA8D7334429656 /* Pods-MAS_Assignment_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAS_Assignment_1.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAS_Assignment_1/Pods-MAS_Assignment_1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E24E08D6772A1753540674 /* Pods_MAS_Assignment_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DC5311A8F55B8034745C6D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8865322A3A2DDCF660C97EC0 /* Pods_MAS_Assignment_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D449C7BB8FDD71CFABBB322 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F101A74A65B757C52304C34 /* Pods-MAS_Assignment_1.debug.xcconfig */,
+				FAC6389BCEEA8D7334429656 /* Pods-MAS_Assignment_1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E5C0E45E2139761D00215ACD = {
 			isa = PBXGroup;
 			children = (
 				E5C0E4692139761D00215ACD /* MAS_Assignment_1 */,
 				E5C0E4682139761D00215ACD /* Products */,
+				8D449C7BB8FDD71CFABBB322 /* Pods */,
+				3DC5311A8F55B8034745C6D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,8 +87,10 @@
 				E5C0E46A2139761D00215ACD /* AppDelegate.swift */,
 				E5C0E46C2139761D00215ACD /* ViewController.swift */,
 				E5C0E46E2139761D00215ACD /* Main.storyboard */,
+				E5C0E47F21397DE600215ACD /* CreateAccountViewController.swift */,
 				E5C0E4742139761E00215ACD /* Assets.xcassets */,
 				E5C0E4762139761E00215ACD /* LaunchScreen.storyboard */,
+				E5C0E48121398D3700215ACD /* awsconfiguration.json */,
 				E5C0E4792139761E00215ACD /* Info.plist */,
 				E5C0E4712139761D00215ACD /* MAS_Assignment_1.xcdatamodeld */,
 			);
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5C0E47C2139761E00215ACD /* Build configuration list for PBXNativeTarget "MAS_Assignment_1" */;
 			buildPhases = (
+				8058DBD27593E68D68A0CCB1 /* [CP] Check Pods Manifest.lock */,
 				E5C0E4632139761D00215ACD /* Sources */,
 				E5C0E4642139761D00215ACD /* Frameworks */,
 				E5C0E4652139761D00215ACD /* Resources */,
+				6C0E5EE9ED4C16C112F8F08B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C0E48321398E3D00215ACD /* awsconfiguration.json in Resources */,
 				E5C0E4782139761E00215ACD /* LaunchScreen.storyboard in Resources */,
 				E5C0E4752139761E00215ACD /* Assets.xcassets in Resources */,
 				E5C0E4702139761D00215ACD /* Main.storyboard in Resources */,
@@ -133,11 +166,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C0E5EE9ED4C16C112F8F08B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MAS_Assignment_1/Pods-MAS_Assignment_1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MAS_Assignment_1/Pods-MAS_Assignment_1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8058DBD27593E68D68A0CCB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MAS_Assignment_1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5C0E4632139761D00215ACD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C0E48021397DE600215ACD /* CreateAccountViewController.swift in Sources */,
 				E5C0E4732139761D00215ACD /* MAS_Assignment_1.xcdatamodeld in Sources */,
 				E5C0E46D2139761D00215ACD /* ViewController.swift in Sources */,
 				E5C0E46B2139761D00215ACD /* AppDelegate.swift in Sources */,
@@ -282,6 +363,7 @@
 		};
 		E5C0E47D2139761E00215ACD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F101A74A65B757C52304C34 /* Pods-MAS_Assignment_1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +382,7 @@
 		};
 		E5C0E47E2139761E00215ACD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAC6389BCEEA8D7334429656 /* Pods-MAS_Assignment_1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

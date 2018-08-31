@@ -1,0 +1,35 @@
+PODS:
+  - AWSCognito (2.6.28):
+    - AWSCore (= 2.6.28)
+  - AWSCognitoIdentityProvider (2.6.28):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.6.28)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.6.28)
+  - AWSDynamoDB (2.6.28):
+    - AWSCore (= 2.6.28)
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSCognitoIdentityProvider
+  - AWSCore
+  - AWSDynamoDB
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSCognito
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSDynamoDB
+
+SPEC CHECKSUMS:
+  AWSCognito: 7e4b529f1e19ce04a00dec4de175509dd5001d5f
+  AWSCognitoIdentityProvider: 9eec83ce5774fc7bf1d9abaa6d74e077acc763ef
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: f75fcf5b2f4325da49ae1f7cb5484778d3b0acc6
+  AWSDynamoDB: 18675e3b8794934ae1d6f8081a9a593a41e45e7e
+
+PODFILE CHECKSUM: dbcd9ef1a91850fccaa1dab67485cfb58043c7c1
+
+COCOAPODS: 1.5.3
